@@ -7,8 +7,8 @@
 //
 
 
-#ifndef cmath_vecmath_h
-#define cmath_vecmath_h
+#ifndef cmath_cintvecmath_h
+#define cmath_cintvecmath_h
 
 #include <stdbool.h>
 #include <stdlib.h>
