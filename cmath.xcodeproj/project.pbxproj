@@ -6,8 +6,21 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		DB90CA451472F59C0024171A /* cmath.h in Headers */ = {isa = PBXBuildFile; fileRef = DB90CA441472F59C0024171A /* cmath.h */; };
+		DB90CA481472F5CB0024171A /* cmath.c in Sources */ = {isa = PBXBuildFile; fileRef = DB90CA471472F5CB0024171A /* cmath.c */; };
+		DB90CA4A1472F5EC0024171A /* vecmath.h in Headers */ = {isa = PBXBuildFile; fileRef = DB90CA491472F5EC0024171A /* vecmath.h */; };
+		DB90CA4C1472F6380024171A /* vecmath.c in Sources */ = {isa = PBXBuildFile; fileRef = DB90CA4B1472F6380024171A /* vecmath.c */; };
+		DB90CA4E1472F64A0024171A /* mtxmath.h in Headers */ = {isa = PBXBuildFile; fileRef = DB90CA4D1472F64A0024171A /* mtxmath.h */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		DB17FBF6147189B100580633 /* libcmath.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libcmath.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB90CA441472F59C0024171A /* cmath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cmath.h; sourceTree = "<group>"; };
+		DB90CA471472F5CB0024171A /* cmath.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cmath.c; sourceTree = "<group>"; };
+		DB90CA491472F5EC0024171A /* vecmath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vecmath.h; sourceTree = "<group>"; };
+		DB90CA4B1472F6380024171A /* vecmath.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = vecmath.c; sourceTree = "<group>"; };
+		DB90CA4D1472F64A0024171A /* mtxmath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mtxmath.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -24,6 +37,11 @@
 		DB17FBEB147189B100580633 = {
 			isa = PBXGroup;
 			children = (
+				DB90CA441472F59C0024171A /* cmath.h */,
+				DB90CA491472F5EC0024171A /* vecmath.h */,
+				DB90CA4B1472F6380024171A /* vecmath.c */,
+				DB90CA4D1472F64A0024171A /* mtxmath.h */,
+				DB90CA471472F5CB0024171A /* cmath.c */,
 				DB17FBF7147189B100580633 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +61,9 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB90CA451472F59C0024171A /* cmath.h in Headers */,
+				DB90CA4A1472F5EC0024171A /* vecmath.h in Headers */,
+				DB90CA4E1472F64A0024171A /* mtxmath.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,6 +118,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB90CA481472F5CB0024171A /* cmath.c in Sources */,
+				DB90CA4C1472F6380024171A /* vecmath.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -185,6 +208,7 @@
 				DB17FBFC147189B100580633 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
