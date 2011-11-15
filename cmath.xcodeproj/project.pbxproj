@@ -12,6 +12,10 @@
 		DB90CA4A1472F5EC0024171A /* cintvecmath.h in Headers */ = {isa = PBXBuildFile; fileRef = DB90CA491472F5EC0024171A /* cintvecmath.h */; };
 		DB90CA4C1472F6380024171A /* cintvecmath.c in Sources */ = {isa = PBXBuildFile; fileRef = DB90CA4B1472F6380024171A /* cintvecmath.c */; };
 		DB90CA4E1472F64A0024171A /* mtxmath.h in Headers */ = {isa = PBXBuildFile; fileRef = DB90CA4D1472F64A0024171A /* mtxmath.h */; };
+		DBA480C714731794005D90FB /* cdoublemath.h in Headers */ = {isa = PBXBuildFile; fileRef = DBA480C614731794005D90FB /* cdoublemath.h */; };
+		DBA480C914731800005D90FB /* cdoublemath.c in Sources */ = {isa = PBXBuildFile; fileRef = DBA480C814731800005D90FB /* cdoublemath.c */; };
+		DBA480CB14731A0D005D90FB /* cdoublevecmath.h in Headers */ = {isa = PBXBuildFile; fileRef = DBA480CA14731A0D005D90FB /* cdoublevecmath.h */; };
+		DBA480CD14731A5D005D90FB /* cdoublevecmath.c in Sources */ = {isa = PBXBuildFile; fileRef = DBA480CC14731A5D005D90FB /* cdoublevecmath.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +25,10 @@
 		DB90CA491472F5EC0024171A /* cintvecmath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cintvecmath.h; sourceTree = "<group>"; };
 		DB90CA4B1472F6380024171A /* cintvecmath.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cintvecmath.c; sourceTree = "<group>"; };
 		DB90CA4D1472F64A0024171A /* mtxmath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mtxmath.h; sourceTree = "<group>"; };
+		DBA480C614731794005D90FB /* cdoublemath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cdoublemath.h; sourceTree = "<group>"; };
+		DBA480C814731800005D90FB /* cdoublemath.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cdoublemath.c; sourceTree = "<group>"; };
+		DBA480CA14731A0D005D90FB /* cdoublevecmath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cdoublevecmath.h; sourceTree = "<group>"; };
+		DBA480CC14731A5D005D90FB /* cdoublevecmath.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cdoublevecmath.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,10 +46,14 @@
 			isa = PBXGroup;
 			children = (
 				DB90CA441472F59C0024171A /* cintmath.h */,
+				DB90CA471472F5CB0024171A /* cintmath.c */,
+				DBA480C614731794005D90FB /* cdoublemath.h */,
+				DBA480C814731800005D90FB /* cdoublemath.c */,
 				DB90CA491472F5EC0024171A /* cintvecmath.h */,
 				DB90CA4B1472F6380024171A /* cintvecmath.c */,
+				DBA480CA14731A0D005D90FB /* cdoublevecmath.h */,
+				DBA480CC14731A5D005D90FB /* cdoublevecmath.c */,
 				DB90CA4D1472F64A0024171A /* mtxmath.h */,
-				DB90CA471472F5CB0024171A /* cintmath.c */,
 				DB17FBF7147189B100580633 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -64,6 +76,8 @@
 				DB90CA451472F59C0024171A /* cintmath.h in Headers */,
 				DB90CA4A1472F5EC0024171A /* cintvecmath.h in Headers */,
 				DB90CA4E1472F64A0024171A /* mtxmath.h in Headers */,
+				DBA480C714731794005D90FB /* cdoublemath.h in Headers */,
+				DBA480CB14731A0D005D90FB /* cdoublevecmath.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -120,6 +134,8 @@
 			files = (
 				DB90CA481472F5CB0024171A /* cintmath.c in Sources */,
 				DB90CA4C1472F6380024171A /* cintvecmath.c in Sources */,
+				DBA480C914731800005D90FB /* cdoublemath.c in Sources */,
+				DBA480CD14731A5D005D90FB /* cdoublevecmath.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
