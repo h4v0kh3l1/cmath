@@ -11,7 +11,8 @@
 
 #include <stdbool.h>
 
-#define mtx vec*
+#include "cintvecmath.h"
+
 
 bool is_mtx(int a[][]);
 bool is_square_mtx(int a[][]);
